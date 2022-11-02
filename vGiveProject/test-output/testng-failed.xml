@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.vGive.testcases.OnboardYourCharityPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+          <include name="Registernow"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.vGive.testcases.OnboardYourCharityPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
